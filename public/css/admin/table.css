@@ -1,0 +1,29 @@
+.buttons a{
+    width: 300px;
+    margin-left: 17%;
+    border: 1px solid black;
+}
+
+.buttons a:hover{
+    background-color: rgb(27, 90, 228);
+    color: white;
+}
+
+.add a{
+    margin-left: 66.5%;
+    margin-top: 5%;
+}
+
+table{
+    width: 30%;
+    
+}
+
+.tables{
+    margin-left: 8.4%;
+    margin-right: 14%;
+}
+
+.tables a{
+    margin-left: 1%;
+}

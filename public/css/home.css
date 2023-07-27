@@ -1,0 +1,109 @@
+.first .row{
+    background-size: cover;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-left: 170px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    margin-left: -59px;
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: -70px;
+}
+.col-2 p{
+    margin-left: -66px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 6px -63px;
+    border-radius: 20px;
+}
+.btn:hover{
+    color: black;
+}
+
+.about{
+    margin-top: 100px;
+}
+.about .row{
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    justify-content: center;
+    margin: 20px 180px;
+}
+
+.products{
+    margin-top: 70px;
+}
+
+.products .row{
+    background-size: cover;
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products .row .col-3{
+    flex-basis: 30%;
+    padding: 10px;
+    min-width: 100px;
+    margin-left: 10px;
+    margin-bottom: 50px; 
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+.products .row .col-3 img{
+    width: 60%;
+    margin-left: -20px;
+    margin-top: -40px;
+}
+.products .row .col-3 .btn{
+    margin-left:1px;
+    margin-top:-10px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    color: black;
+}
+.products .row .col-3 a:first-child i{
+    margin-left: 77px;
+    margin-top: -30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.col-3 p:nth-child(1){
+    font-size: 25px;
+}
+
+.products .row .col-3 a:last-child{
+    margin-left: 60%;
+    font-size: 200%;
+}

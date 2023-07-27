@@ -1,0 +1,77 @@
+.logo{
+    margin-left: 13.5%;
+    margin-top: -2%;
+}
+
+nav ul{
+    margin-left: 50%;
+}
+
+nav ul li{
+    margin-top: -8%;
+    margin-left: 30%;
+    display: inline-block;
+}
+
+nav ul li a, .dropdown-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover, .dropdown-menu ul li a:hover{
+    color: rgb(235, 40, 40);
+}
+
+.active, .dropdown-menu .active{
+    color: rgb(235, 40, 40);
+}
+
+.dropdown a{
+    margin-top: -7%;
+    font-size: medium;
+    color: black;
+}
+
+.dropdown-menu ul{
+    margin-left: -50%;
+}
+
+.dropdown-menu ul .dropdown-divider{
+    margin-left: 25%;
+}
+
+.dropdown-menu ul li a{
+    color: black;
+}
+
+footer{
+    background-color: lightgray;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+footer .link{
+    margin-left: 8%;
+}
+
+footer ul li{
+    margin-left: -5%;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer .aboutus{
+    margin-left: 8%;
+}
+
+footer ul li a:hover{
+    color: rgb(235, 40, 40);
+}
+
+hr{
+    color: rgb(235, 40, 40);
+}

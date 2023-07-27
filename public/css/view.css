@@ -1,0 +1,42 @@
+.view {
+    height: 630px;
+    width: 1200px;
+    background-color: white;
+    position: absolute;
+    top: 1%;
+    left: 6%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    margin-top: 10px;
+}
+.close-btn a{
+    margin-left: 92%;
+    font-size: 200%;
+    text-decoration: none;
+}
+.close-btn a:hover{
+    color: coral;
+    text-decoration: none;
+}
+.view img{
+    margin-top: 3%;
+    margin-left: 7%;
+    width: 300px;
+    height: 400px;
+}
+
+.view .content{
+    margin-left: 57%;
+    margin-top: -38%;
+}
+.view .content h3{
+    margin-top: 20px;
+    color: coral;
+    text-align: left;
+}
+.view .row .content p{
+    font-weight: 500;
+}

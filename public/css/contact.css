@@ -1,0 +1,62 @@
+.contact {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.contact label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+textarea {
+    display: block;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.contact button {
+    margin-top: 40px;
+    width: 100%;
+    background-color: coral;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
